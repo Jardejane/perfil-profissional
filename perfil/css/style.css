@@ -1,0 +1,87 @@
+
+html,body{  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,117,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+img{
+    background-image: url(../img/perfil.png);
+   width: 14rem;
+   height: 30vh;
+}
+img{
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+header h1{
+    color: white;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+header h2{
+    color: white;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#links{
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+#portifolio{
+    background-color: rgba(32, 35, 122, 0.901);
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+
+}
+.portifolio-ancora{
+    /* essa tag é pra mudar a ancora */
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#linkedin{
+    background-color: rgba(32, 35, 122, 0.901);
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+}
+.linkedin-ancora{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#github{
+    background-color: rgba(32, 35, 122, 0.901);
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+}
+.github-ancora{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
